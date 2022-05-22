@@ -7,7 +7,7 @@
 body {
   background-color: #d9dcd6;
 }
-
+/*Makes the header color blue while the letters are white */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -20,7 +20,7 @@ header h1 {
   display: inline-block;
   font-size: 48px;
 }
-
+/* Makes the letters seo in Horiseon a different color */
 header h1 .seo {
   color: #d9dcd6;
 }
@@ -41,16 +41,16 @@ header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
-
+/* Makes all lines of code with an hyperlink tag have a white font color */
 a {
   color: #ffffff;
   text-decoration: none;
 }
-
+/* Makes all paragraph tags have the same font size */
 p {
   font-size: 16px;
 }
-
+/* This is the image underneath the header/nav bar */
 .hero {
   height: 800px;
   width: 100%;
@@ -59,11 +59,15 @@ p {
   background-size: cover;
   background-position: center;
 }
-
-.float-left,
-.float-right {
+/* Makes the image set to the left side of section */
+.float-left {
   float: left;
   margin-right: 25px;
+}
+/* Makes the image set to the right side of section */
+.float-right {
+  float: right;
+  margin-left: 25px;
 }
 
 .content {
@@ -71,7 +75,7 @@ p {
   display: inline-block;
   margin-left: 20px;
 }
-
+/* This sets the style for the aside portion */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -116,7 +120,7 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
+/* Sets the style for the footer */
 footer {
   padding: 30px;
   clear: both;
